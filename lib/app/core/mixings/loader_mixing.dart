@@ -1,7 +1,6 @@
 // 1st structure = Loader System (interacting with our user)
 // Hole application usage
 import 'package:flutter/material.dart';
-import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get/get.dart';
 
 mixin LoaderMixing on GetxController {

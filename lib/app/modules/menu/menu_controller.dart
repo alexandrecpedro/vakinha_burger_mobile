@@ -8,7 +8,7 @@ import 'package:vakinha_burger_mobile/app/models/product_model.dart';
 import 'package:vakinha_burger_mobile/app/repositories/products/product_repository.dart';
 
 class MenuController extends GetxController with LoaderMixing, MessageMixing {
-  ProductRepository _productRepository;
+  final ProductRepository _productRepository;
   // Adding observable variables
   final _loading = false.obs;
   final _message = Rxn<MessageModel>();
