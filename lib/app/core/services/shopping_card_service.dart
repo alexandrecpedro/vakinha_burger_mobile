@@ -17,6 +17,16 @@ class ShoppingCardService extends GetxService {
   // Select an item of card by its id
   ShoppingCardModel? getById(int id) => _shoppingCard[id];
 
+  // Calculating totalValue on shoppingCard
+  double get totalValue {
+    return _shoppingCard.values.fold(0, (totalValue, shoppingCardModel) {
+      totalValue +=
+          shoppingCardModel.product.price * shoppingCardModel.quantity;
+      return totalValue;
+    });
+  }
+
+  // Add / Remove product in Shopping Card
   void addAndRemoveProductInShoppingCard(
     ProductModel product, {
     required int quantity,
@@ -32,4 +42,7 @@ class ShoppingCardService extends GetxService {
       });
     }
   }
+
+  // Remove all items from Shopping Card (Method from GetX)
+  void clear() => _shoppingCard.clear();
 }
