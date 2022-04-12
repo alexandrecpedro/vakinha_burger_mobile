@@ -9,12 +9,12 @@
 <h2>Preview</h2>
 
 <p align="center">
-   <img src=".github/splashPage.png" width="130" alt="Splash Page">
-   <img src=".github/cadastro.png" width="130" alt="Tela de Cadastro">
-   <img src=".github/menu.png" width="130" alt="Menu">
-   <img src=".github/detalhes.png" width="130" alt="Detalhes dos Produtos">
-   <img src=".github/carrinho.png" width="130" alt="Carrinho de Compras">
-   <img src=".github/pix.png" width="130" alt="Tela do PIX">
+   <img src="./screenshots/splashPage.png" width="130" alt="Splash Page">
+   <img src="./screenshots/cadastro.png" width="130" alt="Tela de Cadastro">
+   <img src="./screenshots/menu.png" width="130" alt="Menu">
+   <img src="./screenshots/detalhes.png" width="130" alt="Detalhes dos Produtos">
+   <img src="./screenshots/carrinho.png" width="130" alt="Carrinho de Compras">
+   <img src="./screenshots/pix.png" width="130" alt="Tela do PIX">
 </p>
 
 --- 
